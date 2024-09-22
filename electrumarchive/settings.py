@@ -47,6 +47,8 @@ INSTALLED_APPS = [
     "crispy_forms",
     "crispy_bootstrap4",
     "tinymce",
+    "chargen",
+    "gamelogic",
 ]
 
 MIDDLEWARE = [

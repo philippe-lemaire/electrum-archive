@@ -38,8 +38,8 @@
           Characters
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="#">Randomize everything</a>
-          <a class="dropdown-item" href="#">Choose background</a>
+          <a class="dropdown-item" href="{% url 'chargen:generate_character' %}">Randomize everything</a>
+          <a class="dropdown-item" href="{% url 'chargen:generate_with_background' %}">Choose background</a>
           <a class="dropdown-item" href="#">Something else here</a>
         </div>
       </li>
